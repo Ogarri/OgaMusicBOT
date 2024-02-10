@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import pytube
 import os
-import target.config as config
+from target import config
 
 client = commands.Bot(command_prefix='!' , intents=discord.Intents.all())
 
